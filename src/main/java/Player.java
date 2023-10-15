@@ -2,7 +2,7 @@ public class Player {
     private String name;
     private int cash;
 
-    public Player(String pname) {
+    public Player(String name) {
         this.cash = 100;
         this.name = name;
     }
@@ -39,6 +39,14 @@ public class Player {
 
     public int getCash() {
         return cash;
+    }
+
+    public void addCash (int wonCash) {
+        this.cash += wonCash;
+    }
+
+    public void subtractCash(int looseCash) {
+        this.cash -= looseCash;
     }
 
     public String getName() {
