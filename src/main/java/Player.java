@@ -2,7 +2,7 @@ public class Player {
     private String name;
     private int cash;
 
-    public Player(String name) {
+    public Player(String pname) {
         this.cash = 100;
         this.name = name;
     }
